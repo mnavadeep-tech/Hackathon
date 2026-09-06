@@ -1,0 +1,68 @@
+.fg-badge {
+  display: block;
+  margin-top: 6px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-family: -apple-system, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+  border: 1px solid transparent;
+}
+.fg-badge-ok {
+  background: #e6f4ea;
+  border-color: #34a853;
+  color: #1e6b34;
+}
+.fg-badge-warn {
+  background: #fdecea;
+  border-color: #d93025;
+  color: #9c1a12;
+}
+.fg-badge-checking {
+  background: #f1f3f4;
+  border-color: #c4c7c9;
+  color: #444;
+}
+.fg-panel {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999999;
+  width: 300px;
+  max-height: 70vh;
+  overflow-y: auto;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  font-family: -apple-system, Arial, sans-serif;
+  border: 1px solid #ddd;
+}
+.fg-panel-header {
+  padding: 12px 14px;
+  font-weight: 600;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fg-panel-header.fg-ready {
+  background: #e6f4ea;
+  color: #1e6b34;
+}
+.fg-panel-header.fg-not-ready {
+  background: #fff4e5;
+  color: #8a5a00;
+}
+.fg-panel-body {
+  padding: 10px 14px;
+  font-size: 13px;
+  color: #333;
+}
+.fg-issue-row {
+  padding: 6px 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+.fg-issue-row:last-child {
+  border-bottom: none;
+}
